@@ -41,17 +41,14 @@ body {
 .address {
   font-style: normal;
 }
-a {
-  text-decoration: none;
-}
 
-h1 {
+.headline {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
   color: var(--second-color);
 }
-h4 {
+.asset-headline {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -59,7 +56,7 @@ h4 {
   text-transform: uppercase;
   color: var(--brand-color);
 }
-h2 {
+.headline-second {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.667;
@@ -110,7 +107,8 @@ h2 {
 
 .address-phone-number,
 .address-mail {
-  color: #000000;
+  color: var(--description-color);
+  text-decoration: none;
 }
 
 /*==== END HEADER ==== */
@@ -158,8 +156,7 @@ h2 {
 /*===  END MAIN === */
 /* ==== FOOTER === */
 .address-phone-number-footer,
-.address-mail-footer,
-.address-footer {
+.address-mail-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -174,7 +171,16 @@ h2 {
 .address-mail-footer:focus {
   color: var(--main-color);
 }
-footer {
+.address-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--second-color);
+}
+.footer {
   background-color: var(--background-color);
 }
 .navigation-logo-second-footer {
